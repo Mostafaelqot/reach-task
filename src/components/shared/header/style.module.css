@@ -1,0 +1,13 @@
+.Header_container {
+    display: flex;
+    padding: 3% 10% 3% 10%;
+    justify-content: space-between;
+}
+
+.logo_wrapper {
+    width: 6rem;
+}
+
+.searchInput_wrapper {
+    width: 20rem;
+}

@@ -1,0 +1,13 @@
+.subHeader_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+.subHeader_title{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}

@@ -1,0 +1,25 @@
+.searchinput_container {
+    width: 100%;
+    display: flex;
+
+}
+
+.search_input {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 3%;
+    color: #000000;
+    font-size: 13px;
+    font-family: inherit;
+    background-color: transparent;
+    outline: none;
+}
+
+.searchInput_imgHolder {
+    background-color: rgb(239, 239, 239);
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
