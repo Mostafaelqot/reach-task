@@ -27,11 +27,17 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-  html{
+  html {
     font-size: 12px;
   }
+
   .container {
+    padding: 0;
     width: 100%;
+  }
+
+  .Header_container {
+    background-color: red;
   }
 }
 
