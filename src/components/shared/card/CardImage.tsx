@@ -1,11 +1,11 @@
-import React from 'react'
-import test from "../../../assets/download.png";
+import React from "react";
 import styles from "./style.module.css";
 
-export default function CardImage() {
-  return (
-    
-      <img src={test} alt="" className={styles.cardImage} />
-      
-  );
+type cardImageProps = {
+  src: { url: string };
+};
+
+export default function cardImageProps(props: cardImageProps) {
+  const { src } = props;
+  return <img src={src.url} alt="" className={styles.cardImage} />;
 }

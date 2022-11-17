@@ -1,10 +1,13 @@
 import axiosInstance from "./axiosInstance";
 
-export const youtubeList = async () => {
-  await axiosInstance
-    .get("/search")
+export const youtubeList = async (data: string) => {
+  return await axiosInstance
+    .get("/search", {
+      params: {
+        q: data,
+      },
+    })
     .then((res) => {
-      console.log(res);
       return res;
     })
     .catch((err) => {

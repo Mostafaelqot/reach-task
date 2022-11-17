@@ -8,6 +8,7 @@ const instance = axios.create({
   params: {
     part: "snippet",
     key: key,
+    q : ""
   },
 });
 
